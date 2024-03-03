@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 using namespace std;
 
@@ -21,11 +21,11 @@ void main()
 {
 	setlocale(0, "");
 	int f;
-	cout << "Ââåäèòå ÷èñëî ôàêòîðèàë êîòîðîãî íóæíî íàéòè: "; cin >> f;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð½ÑƒÐ¶Ð½Ð¾ Ð½Ð°Ð¹Ñ‚Ð¸: "; cin >> f;
 	cout << f << "! = " << Factorial(f) << endl;
 
 	int index;
 	double base;
-	cout << "Ââåäèòå îñíîâàíèå è ïîêàçàòåëü ñòåïåíè: "; cin >> base >> index;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¸ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> base >> index;
 	cout << base << " ^ " << index << " = " << Power(base, index) << endl;
 }
