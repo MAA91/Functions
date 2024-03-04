@@ -9,12 +9,16 @@ double Factorial(int f)
 		factorial *= f;
 	return factorial;
 }
+
 double Power(double base, int index)
 {
 	double power = 1;
-	for (; index > 0; index--)
+	for (int i = abs(index); i > 0; i--)
 		power *= base;
-	return power;
+	if(index >= 0)
+		return power;
+	if (index < 0)
+		return 1/power;
 }
 
 void main()
