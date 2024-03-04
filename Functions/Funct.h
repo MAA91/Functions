@@ -11,14 +11,14 @@ double Factorial(int f)
 	return factorial;
 }
 
-double Factorial(int f)
+double Factorial_r(int f)
 {
 	if (f == 1)
 		return 1;
 	return  f * Factorial(f - 1);
 }
 
-double Power(double base, int index)
+double Power_r(double base, int index)
 {
 	double power = 1;
 	for (int i = abs(index); i > 0; i--)
