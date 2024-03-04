@@ -1,27 +1,5 @@
-﻿#include<iostream>
-
-using namespace std;
-
-double Factorial(int f)
-{
-	double factorial = 1;
-	for (; f > 0; f--)
-		factorial *= f;
-	return factorial;
-}
-
-double Power(double base, int index)
-{
-	double power = 1;
-	for (int i = abs(index); i > 0; i--)
-		power *= base;
-	if(index >= 0)
-		return power;
-	if (index < 0)
-		return 1/power;
-}
-
-void main()
+﻿#include "Funct.h"
+int main()
 {
 	setlocale(0, "");
 	int f;
